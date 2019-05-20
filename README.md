@@ -11,7 +11,7 @@ Create and Print Microsoft Word File, ODF, HTML File in Laravel
 </p>
 
 ## Note
- - `composer require phpoffice/phpword`
+  `composer require phpoffice/phpword`
 
   
 
@@ -61,3 +61,8 @@ public function store(Request $request)
         return response()->download(public_path('Appdividend.html'));
     }
 ```
+## Demo
+![image](https://user-images.githubusercontent.com/29988949/58045348-0f142500-7af7-11e9-8788-851c5608b735.png)
+
+![image](https://user-images.githubusercontent.com/29988949/58045364-1c311400-7af7-11e9-9f95-b16e2f795667.png)
+`Word File`
